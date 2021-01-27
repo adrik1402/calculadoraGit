@@ -2,7 +2,7 @@
 package calculadora;
 
 
-public class Estructura {
+public class Estructura extends Calculadora {
     private double n1;
     private  double n2;
     private double resultado;
