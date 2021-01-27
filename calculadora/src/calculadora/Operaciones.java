@@ -3,10 +3,10 @@ package calculadora;
 
 
 public class Operaciones {
-    double n1;
-    double n2;
-    double resultado;
-    char operacion;
+    private double n1;
+    private  double n2;
+    private double resultado;
+    private char operacion;
     
     public Operaciones(double n1, double n2, char operacion){
         this.n1=n1;
