@@ -1,5 +1,6 @@
-import java.util.Scanner;
 package calculadora;
+
+import java.util.Scanner;
 
 
 public class Calculadora {
@@ -9,9 +10,9 @@ public class Calculadora {
     	String signo;
     	Scanner sc=new Scanner(System.in);
     	
-    	System.out.println("¡Bienvenido!");
-    	System.out.println("¿Qué operación desea realizar?");
-    	System.out.println("Suma / Resta / Multiplicación / División / Raíz / Seno / Coseno");
+    	System.out.println("ï¿½Bienvenido!");
+    	System.out.println("ï¿½Quï¿½ operaciï¿½n desea realizar?");
+    	System.out.println("Suma / Resta / Multiplicaciï¿½n / Divisiï¿½n / Raï¿½z / Seno / Coseno");
     	signo=sc.nextLine();
     	signo.toLowerCase();
     	
