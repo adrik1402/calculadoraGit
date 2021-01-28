@@ -2,7 +2,7 @@
 package calculadora;
 
 
-public class Estructura extends Calculadora {
+public class Estructura{
     private double n1;
     private  double n2;
     private double resultado;
@@ -39,12 +39,12 @@ public class Estructura extends Calculadora {
     public void setOperacion(char operacion) {
         this.operacion = operacion;
     }
-
-    public double getResultado() {
-        return resultado;
-    }
-
+    
     public void setResultado(double resultado) {
         this.resultado = resultado;
     }
+    
+    public double getResultado() {
+        return resultado;
+    }   
 }
