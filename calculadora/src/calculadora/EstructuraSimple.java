@@ -31,7 +31,7 @@ public class EstructuraSimple {
     
     
     public void setResultadoSimple(double resultado) {
-        this.resultadoSimple = resultadoSimple;
+        this.resultadoSimple = resultado;
     }
     public double getResultadoSimple() {
         return resultadoSimple;

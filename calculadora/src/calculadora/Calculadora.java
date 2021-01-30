@@ -50,6 +50,12 @@ public class Calculadora {
                        Seno sen=new Seno(valor1);
                        sen.mostrarResultadoSimple();
                        break;
+                       
+            case"coseno":System.out.println("Introduzca el valor:");
+                       valor1=sc.nextDouble();
+                       Coseno cos=new Coseno(valor1);
+                       cos.mostrarResultadoSimple();
+                       break;           
             default: System.out.println("Error");             
             }
     }   
