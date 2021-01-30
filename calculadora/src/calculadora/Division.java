@@ -3,7 +3,7 @@ package calculadora;
 
 
 public class Division extends Estructura{
-    double division;
+    private double division;
     
     public Division(double n1,double n2){
         super(n1,n2,'/');
