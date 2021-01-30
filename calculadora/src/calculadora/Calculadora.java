@@ -56,7 +56,12 @@ public class Calculadora {
                        Coseno cos=new Coseno(valor1);
                        cos.mostrarResultadoSimple();
                        break;           
-            default: System.out.println("Error");             
+            case"raiz":System.out.println("Introduzca el valor:");
+            			valor1=sc.nextDouble();
+            			RaizCuadrada raiz= new RaizCuadrada(valor1);
+            			raiz.mostrarResultadoSimple();
+            			break;
+            default: System.out.println("Syntax Error");             
             }
     }   
 }
